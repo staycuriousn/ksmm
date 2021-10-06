@@ -12,7 +12,7 @@ Please see below to install in R.
 (1) From GitHub
 ```{r}
 > library(devtools)
-> install_github("kyuridata/ksmm")
+> install_github("staycuriousn/ksmm")
 ```
 
 ## 2. USAGE NOTES
