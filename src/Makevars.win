@@ -1,0 +1,5 @@
+# -*- Makefile -*-
+# vim:ft=make:
+
+PKG_LIBS+=$(BLAS_LIBS) 
+PKG_LIBS+=$(LAPAK_LIBS)

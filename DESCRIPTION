@@ -1,0 +1,17 @@
+Package: ksmm
+Type: Package
+Title: ksmm algorithm
+Depends: R (>= 3.5.0)
+Version: 0.1.0
+Date: 2021-06-14
+Authors@R: c(person("Kyuri", "Park", role = c("aut", "cre"), email = "@gmail"))
+Author: Kyuri Park [aut, cre]
+		Changyi Park [aut]
+Maintainer: Kyuri Park <kyuripark12@uos.ac.kr>
+Description: Provied functions for Kernel Support Matrix Machine
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.6), methods, stats, parallel, kernlab, caret,
+        Rcpp, RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo
+NeedsCompilation: yes
+Packaged: 2021-06-05 10:57:20 UTC; Kyuri

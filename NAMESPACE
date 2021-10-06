@@ -1,0 +1,9 @@
+useDynLib(ksmm, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+
+export(ksmm, kfold_ksmm, predict.ksmm)
+exportClasses("ksmm")
+
+importFrom("caret", "createFolds")
+importFrom("parallel", "mclapply")
+import("kernlab")
